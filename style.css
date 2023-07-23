@@ -1,0 +1,92 @@
+body * {
+  font-family: "Uniform", sans-serif;
+}
+
+.body {
+  background-image: url("https://bddigitalcard.com/public/badigisol4/templates/template4/bgwood.jpg");
+}
+
+.brandImg {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #366657;
+  margin-bottom: 15px;
+}
+
+.brandPage {
+  background-color: #ffffff;
+  width: 450px;
+  height: auto;
+}
+
+.brandName {
+  color: #727b93;
+  font-weight: 600;
+}
+
+.hrLine {
+  background-color: #366657;
+  height: 2px;
+  margin-right: 7rem !important;
+  margin-left: 7rem !important;
+}
+
+.brandContact {
+  text-decoration: none;
+  background-color: #366657;
+  width: 40px;
+  height: 40px;
+  border-radius: 2rem;
+  display: block;
+}
+
+.brandContact2 {
+  text-decoration: none;
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
+.brandImageWrapar {
+  padding: 0.5rem;
+  width: 126px;
+}
+
+.images-container .brandImageWrapar img {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.images-container {
+  column-count: 3;
+}
+
+.brandNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+@media screen and (min-width: 300px) and (max-width: 880px) {
+  .brandImage {
+    width: 197px !important;
+  }
+  .brandImageWrapar {
+    width: 63px !important;
+  }
+}
+
+@media screen and (min-width: 979px) and (max-width: 1066px) {
+  .brandImage {
+    width: 340px !important;
+  }
+  .brandImageWrapar {
+    width: 100px !important;
+  }
+}
